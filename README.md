@@ -63,7 +63,8 @@ ZipCheck는 지도 위에 표현되는 ‘감정 스티커’라는 직관적인
 ### 전체 구조
 Vue.js로 빌드된 프론트엔드에서 사용자의 요청을 보내면, Spring Boot 기반의 백엔드 서버가 API 요청을 처리합니다. 데이터는 MySQL 데이터베이스에 영구 저장되며, MyBatis를 통해 SQL 쿼리를 관리합니다. 사용자 인증은 JWT 토큰 방식을 사용하며, 매물 관련 이미지 등 정적 파일은 AWS S3에 저장 및 서빙됩니다. 지도 표시는 Kakao Map API를 활용합니다.
 
-![image](https://github.com/user-attachments/assets/c15b9e11-095d-4009-b634-1188448f2191)
+![image](./img/architecture.jpg)
+![image2](./img/aipage2.png)
 
 
 ### 주요 도메인
@@ -154,13 +155,42 @@ cloud.aws.region.static=ap-northeast-2
 
 ### 주요 화면 스크린샷
 
-| 화면 1 | 화면 2 |
-|---|---|
-| <img src="zipcheck-frontend/vue-zipcheck/img/images.jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (1).jpeg" width="400"/> |
-| **화면 3** | **화면 4** |
-| <img src="zipcheck-frontend/vue-zipcheck/img/images (2).jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (3).jpeg" width="400"/> |
-| **화면 5** | **화면 6** |
-| <img src="zipcheck-frontend/vue-zipcheck/img/images (4).jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (6).jpeg" width="400"/> |
+<table>
+  <tr>
+    <th align="left">화면 1 · 홈</th>
+    <th align="left">화면 2 · 지도</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./img/homepage.jpg"
+           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
+                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+    </td>
+    <td>
+      <img src="./img/mainpage1.jpg"
+           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
+                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+    </td>
+  </tr>
+
+  <tr>
+    <th align="left">화면 3 · 스티커 지도</th>
+    <th align="left">화면 4 · AI 분석</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./img/mainpage2.png"
+           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
+                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+    </td>
+    <td>
+      <img src="./img/aipage.png"
+           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
+                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+    </td>
+  </tr>
+</table>
+
 
 ### 데모 링크
 - https://drive.google.com/file/d/1nmo0_rQSROetxyF2gRXkRcC3DRU90sXx/view
