@@ -161,15 +161,15 @@ cloud.aws.region.static=ap-northeast-2
     <th align="left">화면 2 · 지도</th>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="./img/homepage.jpg"
-        style="width:460px;height:260px;object-fit:contain;background:#fff;
-               border:1px solid #e5e7eb;border-radius:12px;padding:10px;" />
+           style="max-width: 100%; max-height: 320px;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
-    <td>
+    <td align="center">
       <img src="./img/mainpage1.jpg"
-        style="width:460px;height:260px;object-fit:contain;background:#fff;
-               border:1px solid #e5e7eb;border-radius:12px;padding:10px;" />
+           style="max-width: 100%; max-height: 320px;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
   </tr>
 
@@ -178,15 +178,15 @@ cloud.aws.region.static=ap-northeast-2
     <th align="left">화면 4 · AI 분석</th>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <img src="./img/mainpage2.png"
-        style="width:460px;height:260px;object-fit:contain;background:#fff;
-               border:1px solid #e5e7eb;border-radius:12px;padding:10px;" />
+           style="max-width: 100%; max-height: 320px;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
-    <td>
+    <td align="center">
       <img src="./img/aipage.png"
-        style="width:460px;height:260px;object-fit:contain;background:#fff;
-               border:1px solid #e5e7eb;border-radius:12px;padding:10px;" />
+           style="max-width: 100%; max-height: 320px;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
   </tr>
 </table>
