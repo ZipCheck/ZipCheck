@@ -149,11 +149,21 @@ cloud.aws.region.static=ap-northeast-2
 - **지도**: 매물, 스티커를 탐색할 수 있는 메인 지도 페이지
 - **매물 상세**: AI 리뷰 요약, 거래 내역 차트, 로드뷰 등을 포함한 상세 정보
 - **스티커 페이지**: 특정 매물에 달린 스티커와 코멘트 모아보기
-- **커뮤N티**: 게시글 목록 및 상세 보기
+- **커뮤니티**: 게시글 목록 및 상세 보기
 - **마이페이지**: 내 정보 수정, 내가 쓴 글/댓글, 찜 목록 확인
 
+### 주요 화면 스크린샷
+
+| 화면 1 | 화면 2 |
+|---|---|
+| <img src="zipcheck-frontend/vue-zipcheck/img/images.jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (1).jpeg" width="400"/> |
+| **화면 3** | **화면 4** |
+| <img src="zipcheck-frontend/vue-zipcheck/img/images (2).jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (3).jpeg" width="400"/> |
+| **화면 5** | **화면 6** |
+| <img src="zipcheck-frontend/vue-zipcheck/img/images (4).jpeg" width="400"/> | <img src="zipcheck-frontend/vue-zipcheck/img/images (6).jpeg" width="400"/> |
+
 ### 데모 링크
-- 추후 추가 예정
+- https://drive.google.com/file/d/1nmo0_rQSROetxyF2gRXkRcC3DRU90sXx/view
 
 ---
 
