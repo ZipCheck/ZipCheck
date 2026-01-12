@@ -163,13 +163,13 @@ cloud.aws.region.static=ap-northeast-2
   <tr>
     <td>
       <img src="./img/homepage.jpg"
-           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
-                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+           style="width: 460px; height: 260px; object-fit: cover;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
     <td>
       <img src="./img/mainpage1.jpg"
-           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
-                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+           style="width: 460px; height: 260px; object-fit: cover;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
   </tr>
 
@@ -180,13 +180,13 @@ cloud.aws.region.static=ap-northeast-2
   <tr>
     <td>
       <img src="./img/mainpage2.png"
-           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
-                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+           style="width: 460px; height: 260px; object-fit: cover;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
     <td>
       <img src="./img/aipage.png"
-           style="width: 460px; height: 260px; object-fit: contain; background: #ffffff;
-                  border: 1px solid #e5e7eb; border-radius: 12px; padding: 10px;" />
+           style="width: 460px; height: 260px; object-fit: cover;
+                  border: 1px solid #e5e7eb; border-radius: 12px;" />
     </td>
   </tr>
 </table>
