@@ -199,7 +199,7 @@ cloud.aws.region.static=ap-northeast-2
 
 ## 팀 구성 및 역할
 
-- **팀 구성**: 개인 프로젝트
+- **팀 구성**: 2인 프로젝트
 - **담당 역할**: Full-Stack (Frontend, Backend, Database 설계, AI 기능 연동, Infra)
 
 ---
